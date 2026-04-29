@@ -54,7 +54,7 @@ the data and then use Excel to show my findings in a way that is easy to underst
 
 
 
-**My recommendation for the next quarter is focused on three main things I found in the data**
+**My recommendation for the next quarter is focused on four main things I found in the data**
 
 
 
@@ -62,11 +62,15 @@ the data and then use Excel to show my findings in a way that is easy to underst
 
 
 
-​2. Promote Technology Products My analysis for Question 4 showed that Technology products have the highest average sales. I recommend we create a special promotion for these items to increase our total revenue even more.
+​2. I've also identified our lowest performing states, such as Minnesota and Montana, which may require a different strategy.
 
 
 
-3\. Support the West Team I noticed that the other managers in the West aren't showing any sales yet. They are labeled as online sales without a specific territory. I recommend assigning    them specific states to manage, just like Jim Heck has Colorado. My final recommendation is to share Jim Heck's successful online strategies with the rest of the West team so the whole region can grow.
+3\. Promote Technology Products My analysis for Question 4 showed that Technology products have the highest average sales. I recommend we create a special promotion for these items to increase our total revenue even more.
+
+
+
+4\. Support the West Team I noticed that the other managers in the West aren't showing any sales yet. They are categorized as online sales without a specific territory. I recommend assigning them specific states to manage, just like Jim Heck has Colorado. My final recommendation is to share Jim Heck's successful online strategies with the rest of the West team so the whole region can grow.
 
 
 
@@ -76,7 +80,7 @@ the data and then use Excel to show my findings in a way that is easy to underst
 
 
 
-​During this project, I had to fix a few technical issues.I encountered a schema mismatch where the column names in my INSERT statements didn't match the table definition. I had to run a DESCRIBE command to make sure I was using the correct column names like Category instead of CategoryName.
+​During this project, I had to fix a few technical issues. I encountered a schema mismatch where the column names in my INSERT statements didn't match the table definition. I had to run a DESCRIBE command to make sure I was using the correct column names like Category instead of CategoryName.
 
 
 

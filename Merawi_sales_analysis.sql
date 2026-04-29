@@ -3,12 +3,12 @@
 -- Description - Analysis of store and online sales performance.
 
 USE sample_sales;
-
+-- I used DESCRIBE command to make sure I was using the correct column names
 describe store_sales;
-
 describe online_sales;
-
 describe management;
+
+-- I used the SELECT command to audit the management table and discovered that Jim Heck's unique ID is 10.
 
 select * from sample_sales.management;
 
@@ -111,13 +111,15 @@ ORDER BY Total_Online_Sales DESC;
 
 -- Question 6: My Recommendation 
 
--- my recommendation for the next quarter is focused on three main things I found in the data
+-- my recommendation for the next quarter is focused on four main things I found in the data
+
 -- ​1. Keep California as the Priority Since my Question 5 results showed California is our #1 state for online sales, we should focus our
 --  biggest marketing efforts there. It's our most reliable source of income.
--- ​2. Promote Technology Products My analysis for Question 4 showed that Technology products have the highest average sales. I recommend we 
+-- 2. I've also identified our lowest performing states, such as Minnesota and Montana, which may require a different strategy.
+-- ​3. Promote Technology Products My analysis for Question 4 showed that Technology products have the highest average sales. I recommend we 
 -- create a special promotion for these items to increase our total revenue even more.
--- ​3. Support the West Team I noticed that the other managers in the West aren't showing any sales yet.They are labeled as online sales without  
---  a specific territory. I recommend assigning them specific states to manage, just like Jim Heck has Colorado. My final recommendation is to  
--- share Jim Heck's successful online strategies with the rest of the West team so the whole region can grow.
+-- ​4. Support the West Team I noticed that the other managers in the West aren't showing any sales yet.They are Categorized as online sales  
+-- without a specific territory. I recommend assigning them specific states to manage, just like Jim Heck has Colorado. My final recommendation   
+-- is to share Jim Heck's successful online strategies with the rest of the West team so the whole region can grow.
 
 
