@@ -3,6 +3,7 @@
 -- Description - Analysis of store and online sales performance.
 
 USE sample_sales;
+
 -- I used DESCRIBE command to make sure I was using the correct column names
 describe store_sales;
 describe online_sales;
@@ -82,6 +83,10 @@ WHERE total.Store_ID IN (10, 11, 12);
 -- Question 4: Sales Trends by Month and Category
 -- Joining the sales tables to the product and category tables
 
+-- I used DESCRIBE command to make sure I was using the correct column names
+describe products;
+describe inventory_categories;
+
 SELECT 
     DATE_FORMAT(total.T_Date, '%M %Y') AS Sales_Month,
     c.Category AS Product_Category,
@@ -101,6 +106,8 @@ ORDER BY MIN(total.T_Date), Product_Category;
 
 -- Question 5: Ranking Online Sales by State
 -- This shows which states are buying the most from the online portal
+
+describe shipper_list;
 
 SELECT 
     ShiptoState AS State, 
